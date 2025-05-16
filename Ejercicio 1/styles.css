@@ -1,0 +1,44 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+h1
+{
+    flex-direction: column;
+    color: #8e44ad;
+    margin-bottom: 20px;
+}
+
+.formulario
+{
+    background-color: rgb(197, 184, 184);
+    padding: 20px;
+    width: 300px;
+}
+
+
+button
+{
+    background-color: #8e44ad;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+footer
+{
+    margin-top: 20px;
+    text-align: center;
+    align-content: flex-end;
+    color: #666;
+}
+
+.title
+{
+    display: flex;
+    align-items: center;
+}
