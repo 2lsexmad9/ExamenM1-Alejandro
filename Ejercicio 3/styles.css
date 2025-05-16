@@ -1,0 +1,59 @@
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    align-items: center;
+}
+
+.navbar ul
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 1670px;
+}
+
+.navbar li
+{
+    float: left;
+}
+
+.navbar li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+}
+
+.Principal
+{
+    flex-direction: row;
+
+}
+
+.Secundario
+{
+    align-content: space-between;
+
+}
+
+.Marketing
+{
+    color: crimson;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer
+{
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+    width: 1670px;
+}
