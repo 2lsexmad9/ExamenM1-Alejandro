@@ -1,59 +1,74 @@
-
 body
 {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    margin: 0;
-    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    padding: 15px;
+}
+
+h1
+{
+    background-color: rgb(27, 180, 180);
+    text-align: center;
+    margin: 20px;
+
+}
+.navbar a
+{
+    text-decoration: none;
+    color: #333;
 }
 
 .navbar ul
 {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    width: 1670px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .navbar li
 {
-    float: left;
-}
-
-.navbar li a
-{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px;
+    margin: 15px;
 }
 
 .Principal
 {
-    flex-direction: row;
-
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: #f0f0f0;
 }
 
 .Secundario
 {
-    align-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
 
+p
+{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    line-height: 1.5;
 }
 
 .Marketing
 {
-    color: crimson;
-    text-decoration: underline;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin: 30px;
+    color: #ff0000;
 }
 
 footer
 {
-    background-color: #f1f1f1;
-    padding: 10px;
-    text-align: center;
-    margin-top: auto;
-    width: 1670px;
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+footer p
+{
+    margin: 5px;
 }
